@@ -43,7 +43,7 @@ visualization = dcc.Graph(
     figure=generate_figure(data)
 )
 
-# region picker button
+# region_picker button
 region_picker = dcc.RadioItems(
     ["north", "east", "south", "west", "all"],
     "all",
